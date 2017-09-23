@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 # Cluster-to-Gate (C2G)
