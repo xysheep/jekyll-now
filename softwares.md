@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Softwares
+title: 
 ---
 # Cluster-to-Gate (C2G)
 
