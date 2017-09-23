@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
 ---
+
 # Cluster-to-Gate (C2G)
 
 This is a software developed to visualize clustered flow or mass cytometry data by converting them into nested two-dimensional gating sequence that biologists traditionally use to analyze flow cytometry data.
