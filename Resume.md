@@ -7,8 +7,11 @@ permalink: /Resume/
 # Xingyu Yang
 
 Ph.D Student
+
 Department of Biology
+
 Georgia Institute of Technology
+
 Atlanta, GA, 30318
 
 ## Education:
