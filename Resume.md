@@ -23,7 +23,8 @@ Sept. 2008 - June 2012 B.S. in Biology
 ## Professional Experience:
 
 ### Georgia Institute of Technology, Atlanta, Georgia
-May 2014-Present RA at Dr. Peng Qiu's Laboratory
-Sept. 2012-May 2014 RA at Dr. Soojin Yi’s Laboratory
+*May 2014-Present* RA at Dr. Peng Qiu's Laboratory
+
+*Sept. 2012-May 2014* RA at Dr. Soojin Yi’s Laboratory
 ### University of Science and Technology of China
 Undergraduate Research Intern in Qingfa Wu's Laboratory
