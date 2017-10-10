@@ -33,7 +33,7 @@ chmod +x NVIDIA-Linux-x86_64-384.90.run
 sudo ./NVIDIA-Linux-x86_64-384.90.run
 ```
 ### Install Cuda toolkit
-Cuda 9.0 is recently released, unfortunately however,** most dl platform currently only support cuda 8.0**. Therefore, we need to download the archived release from [here](https://developer.nvidia.com/cuda-toolkit-archive). On this website, we can download the installer after picking up the operation system (usually choose x86_64 as Architecture). The "**deb(local)**" isntaller is recommanded. To install it, simply type the following script:
+Cuda 9.0 is recently released, unfortunately however, most **dl platform currently only support cuda 8.0**. Therefore, we need to download the archived release from [here](https://developer.nvidia.com/cuda-toolkit-archive). On this website, we can download the installer after picking up the operation system (usually choose x86_64 as Architecture). The "**deb(local)**" isntaller is recommanded. To install it, simply type the following script:
 ```bash
 #  file name might vary depends on version of operation system and cuda
 sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
