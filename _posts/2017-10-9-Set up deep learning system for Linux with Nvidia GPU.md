@@ -25,7 +25,7 @@ Then, we can [set up deep learning environments](#set-up-deep-learning-environme
 
 ## Install Prerequisite
 ### Install Nvidia driver
-To download GPU driver, we can go to this [link](http://www.nvidia.com/Download/index.aspx "link"), choose our GPU/operation, and click serach (like shown in the following figure). Then we can download the correspond driver. For a linux with GTX Titan X, the newest driver name should be **NVIDIA-Linux-x86_64-384.90.run** as date of 2017-10-09.
+To download GPU driver, we can go to this [link](http://www.nvidia.com/Download/index.aspx "link"), choose our GPU/operation, and click serach. Then we can download the correspond driver. For a linux with GTX Titan X, the newest driver name should be **NVIDIA-Linux-x86_64-384.90.run** as date of 2017-10-09.
 Move to the folder that the driver downloaded and run the following script to install it.
 ```bash
 chmod +x NVIDIA-Linux-x86_64-384.90.run
