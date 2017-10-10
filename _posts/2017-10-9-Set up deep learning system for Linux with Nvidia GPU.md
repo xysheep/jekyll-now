@@ -55,13 +55,14 @@ More details about installing cuDNN is avaliable [here](http://docs.nvidia.com/d
 ## Set up deep learning environment
 Usually, to avoid any package conflictions between different platforms or users, we expect to establish independent environment for different users, platforms, or projects. Conda is a **package**, **dependency**, and **environment** management platform that can easily achieve this goal. We also can use it to easily manage and use different version of softwares.
 ### Install Conda
-### Create a conda environment
 To install conda, we have two options: anaconda and miniconda. Compare to miniconda, anaconda has more preinstalled packages. Here, take miniconda as an example, we can run the following command to install miniconda.
 ```bash
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-This will install conda for the current user. Then, we can create a new conda environment for tensorflow. As an example, we create a environment named "**tf**"(any name is OK) using the following script.
+This will install conda for the current user.
+### Create a conda environment
+Then, we can create a new conda environment for tensorflow. As an example, we create a environment named "**tf**"(any other name is OK) using the following script.
 ``` bash
 conda create -name tf python=3.6
 ```
