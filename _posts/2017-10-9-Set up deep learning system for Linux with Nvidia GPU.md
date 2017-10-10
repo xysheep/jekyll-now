@@ -4,6 +4,9 @@ title: Set up deep learning system for Ubuntu with Nvidia GPU
 excerpt_separator: <!--more-->
 ---
 To prepare deep learning system in Ubuntu with Nvidia GPU, we need to install the following prerequisite.
+<!--more-->
+
+
 - [Nvidia driver](#install-nvidia-driver)
 - [Cuda toolkit](#install-cuda-toolkit)
 - [CuDNN](#install-cudnn)
@@ -18,7 +21,6 @@ Then, we can [set up deep learning environments](#set-up-deep-learning-environme
 - [cntk (used as backend of Keras)](#cntk)
 + [Install frequently used packages that cannot directly installed from conda](#install-frequently-used-packages)
   - [opencv](#opencv)
-<!--more-->
 
 
 ## Install Prerequisite
