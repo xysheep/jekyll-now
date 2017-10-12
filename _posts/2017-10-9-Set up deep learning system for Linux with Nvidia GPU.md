@@ -25,7 +25,7 @@ Then, we can [set up deep learning environments](#set-up-deep-learning-environme
 
 ## Install Prerequisite
 ### Install Nvidia driver
-To download GPU driver, we can go to this [link](http://www.nvidia.com/Download/index.aspx "link"), choose our GPU/operation, and click serach (like shown in the following figure). Then we can download the correspond driver. For a linux with GTX Titan X, the newest driver name should be **NVIDIA-Linux-x86_64-384.90.run** as date of 2017-10-09.
+To download GPU driver, we can go to this [link](http://www.nvidia.com/Download/index.aspx "link"), choose our GPU/operation, and click serach. Then we can download the correspond driver. For a linux with GTX Titan X, the newest driver name should be **NVIDIA-Linux-x86_64-384.90.run** as date of 2017-10-09.
 Move to the folder that the driver downloaded and run the following script to install it.
 ```bash
 chmod +x NVIDIA-Linux-x86_64-384.90.run
@@ -33,7 +33,7 @@ chmod +x NVIDIA-Linux-x86_64-384.90.run
 sudo ./NVIDIA-Linux-x86_64-384.90.run
 ```
 ### Install Cuda toolkit
-Cuda 9.0 is recently released, unfortunately however,** most dl platform currently only support cuda 8.0**. Therefore, we need to download the archived release from [here](https://developer.nvidia.com/cuda-toolkit-archive). On this website, we can download the installer after picking up the operation system (usually choose x86_64 as Architecture). The "**deb(local)**" isntaller is recommanded. To install it, simply type the following script:
+Cuda 9.0 is recently released, unfortunately however, most **dl platform currently only support cuda 8.0**. Therefore, we need to download the archived release from [here](https://developer.nvidia.com/cuda-toolkit-archive). On this website, we can download the installer after picking up the operation system (usually choose x86_64 as Architecture). The "**deb(local)**" isntaller is recommanded. To install it, simply type the following script:
 ```bash
 #  file name might vary depends on version of operation system and cuda
 sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
@@ -55,13 +55,14 @@ More details about installing cuDNN is avaliable [here](http://docs.nvidia.com/d
 ## Set up deep learning environment
 Usually, to avoid any package conflictions between different platforms or users, we expect to establish independent environment for different users, platforms, or projects. Conda is a **package**, **dependency**, and **environment** management platform that can easily achieve this goal. We also can use it to easily manage and use different version of softwares.
 ### Install Conda
-### Create a conda environment
 To install conda, we have two options: anaconda and miniconda. Compare to miniconda, anaconda has more preinstalled packages. Here, take miniconda as an example, we can run the following command to install miniconda.
 ```bash
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-This will install conda for the current user. Then, we can create a new conda environment for tensorflow. As an example, we create a environment named "**tf**"(any name is OK) using the following script.
+This will install conda for the current user.
+### Create a conda environment
+Then, we can create a new conda environment for tensorflow. As an example, we create a environment named "**tf**"(any other name is OK) using the following script.
 ``` bash
 conda create -name tf python=3.6
 ```
