@@ -8,7 +8,7 @@ To prepare deep learning system in Windows with Nvidia GPU, we need to install t
 
 
 - [Nvidia driver](#install-nvidia-driver)
-- [Microsoft Visual C++ Redistributable](#install-visual-c++-redistributable)
+- [Microsoft Visual C++ Redistributable](#install-visual-c-redistributable)
 - [Cuda toolkit](#install-cuda-toolkit)
 - [CuDNN](#install-cudnn)
 - [Install conda: Anaconda/miniconda](#install-conda)
@@ -36,7 +36,7 @@ To download GPU driver, we can
 - Download the correspond driver. For a Windows 10 with GTX Titan X, the newest driver name should be **388.00-desktop-win10-64bit-international-whql.exe** as date of 2017-10-24.
 - Move to the folder that the driver downloaded and double click it to install.
 
-### Install Visual C++ Redistributable
+### Install Visual C Redistributable
 Download [this link](https://go.microsoft.com/fwlink/?LinkId=746572) and double click it to install. Restart the Operation system after installation complete.
 ### Install Cuda toolkit
 Cuda 9.0 is recently released, unfortunately however, most **dl platform currently only support cuda 8.0**. Therefore, we need to install older verion. 
