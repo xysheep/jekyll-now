@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Set up deep learning system for Windows 
+title: Set up deep learning system for Windows with Nvidia GPU 
 excerpt_separator: <!--more-->
 ---
 To prepare deep learning system in Windows with Nvidia GPU, we need to install the following prerequisite with **Administrator access**.
