@@ -100,7 +100,6 @@ pip install keras
 After installing keras, we need to pick a backend. Keras use tensorflow by default. We can change it by editing the "~/.keras/keras.json" file. ~ is the path of user folder.
 #### Tensorflow
 
-And install the newest GPU version of tensorlfow by following script. For tensorflow, we have to use "pip install" instead of "conda install".
 ```
 conda install tensorflow-gpu
 ```
