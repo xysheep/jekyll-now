@@ -84,30 +84,31 @@ We can install most other python packages like scipy, scikit-learn in this way w
 Install through **conda** is usually **better than** from **pip** because of less conflicts and more comprehensize dependencies.
 ### Install deep learning platforms
 We can install any of the following platforms we like. I recommend to create an independent conda env for each platform (except Keras).
-#### Tensorflow
+#### Keras
 After creating a env named **tf** in [above section](#create-a-conda-environment), we can enter that environment by the following command:
 ```
 activate tf
 ```
+At the same conda env, we can use the following command to install a stable version of Keras. Make sure to install keras first before installing tensorflow.
+```
+conda install keras
+```
+To install a newest version of keras, use this command. 
+```
+pip install keras
+```
+After installing keras, we need to pick a backend. Keras use tensorflow by default. We can change it by editing the "~/.keras/keras.json" file. ~ is the path of user folder.
+#### Tensorflow
+
 And install the newest GPU version of tensorlfow by following script. For tensorflow, we have to use "pip install" instead of "conda install".
 ```
-pip install --ignore-installed tensorflow-gpu
+conda install tensorflow-gpu
 ```
 #### pytorch
 Pytorch is community-supported in Windows. After entering a conda env, simply type the following command:
 ```
 conda install -c peterjc123 pytorch
 ```
-#### Keras
-Before installing Keras, we need to have at least one of [tensorflow](#Tensorflow) or [CNTK](#CNTK) installed as backend (Theano is not recommended) in our conda env. At the same conda env, we can use the following command to install Keras.
-```
-pip install keras
-```
-If this doesn't work (for any reason), try the alternative command:
-```
-conda install -c conda-forge keras
-```
-After installing keras, we need to pick a backend. Keras use tensorflow by default. We can change it by editing the "~/.keras/keras.json" file. ~ is the path of user folder.
 #### CNTK
 CNTK, though not very popular, is a great option for Keras backend because it runs faster than current version of tensorflow. It can be downloaded and installed by the following commands (after entering a conda env).
 ```
@@ -115,10 +116,11 @@ pip install https://cntk.ai/PythonWheel/GPU/cntk-2.2-cp36-cp36m-win_amd64.whl
 ```
 ### Trouble Shooting
 #### Unexpected keyword argument error in pip
-This occurs after installing tensorflow because tensorflow downgrade html5lib to an older version. Need to update html5lib to fix this issue. Run the following command:
+This occurs after installing tensorflow from pip because tensorflow downgrade html5lib to an older version. Need to update html5lib to fix this issue. Run the following command:
 ```
 conda install html5lib
 ```
+If tensorflow is installed from conda, this won't happen.
 #### opencv
 For python 3.6, opencv cannot be directly installed by using
 ```
