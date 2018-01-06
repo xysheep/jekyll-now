@@ -74,33 +74,7 @@ void update_count(){
 }
 
 void keyPressed(){
-  if (key=='C'||key=='c'){
-    clear();
-  }else if (key=='R'||key=='r'){
+  if (key=='R'||key=='r'){
     randomize();
-  }else if (key=='G'||key=='g'){
-    if (state<2){
-      state=2;
-      loop();
-    }else if (state==2){
-      state=1;
-      noLoop();
-    }
-  }else if (key==' '){
-      state=1;
-      redraw();
-      noLoop();
   }
-}
-
-void mousePressed(){
-  state=0;
-  int x=int(mouseX/8);
-  int y=int(mouseY/8);
-  if (cell_grid[x][y]==1){
-    cell_grid[x][y]=0;
-  }else{
-    cell_grid[x][y]=1;
-  }
-  redraw();
 }

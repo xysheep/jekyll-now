@@ -16,5 +16,5 @@ The fishes will be attracted by your mouse click.
 <canvas data-processing-sources="/script/Zebra_stripes_growth.pde"></canvas>
 
 
-###Simulation of anual ring growth
+### Simulation of anual ring growth
 <canvas data-processing-sources="/script/annual_ring.pde"></canvas>
