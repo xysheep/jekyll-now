@@ -1,10 +1,10 @@
-int xs=75;
-int ys=75;
+int xs=50;
+int ys=50;
 int state;//0 initiate, 1 single-step; 2 continuous
 int[][] cell_grid;
 int[][] cell_count;
 void setup(){
-  size(600,600);
+  size(400,400);
   stroke(0);
   cell_grid = new int [xs][ys];//1 live, 0 die
   cell_count= new int [xs][ys];
@@ -28,7 +28,7 @@ void draw(){
         rect(8*x,y*8,8,8);
       }
     }
-  if (state==2){delay(30);}
+  if (state==2){delay(10);}
 }  
 void randomize(){
   for (int x=0;x<xs;x++)

@@ -1,7 +1,7 @@
 float[][] v,u,vnew,unew;
 int sizeX=100,sizeY=100;
-int screenW=800;
-int screenH=800;
+int screenW=400;
+int screenH=400;
 int drawMode=1; //1 means draw u, 0 means draw 1;
 int paraMode=1; //1 means constant parameters; 0 spatially-varying
 int ractMode=1; //1 means reaction-diffusion; 0 means diffusion;

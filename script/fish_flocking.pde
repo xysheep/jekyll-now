@@ -1,5 +1,5 @@
-int screen_width=600;
-int screen_height=600;
+int screen_width=400;
+int screen_height=400;
 int n;
 int fish_size=6;
 int nbin=80;
@@ -15,7 +15,7 @@ fish f;
 bin[][] bins;
 void setup(){
   background(70,30,205);
-  size(600,600);
+  size(400,400);
   creature_list=new fish[100];
   bins=new bin [nbin][nbin];
   noStroke();

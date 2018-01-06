@@ -1,7 +1,7 @@
-int screenH=600;
-int screenW=600;
-int sizeX=600;
-int sizeY=600;
+int screenH=400;
+int screenW=400;
+int sizeX=400;
+int sizeY=400;
 int gridW,gridH;
 int day;
 int runmode=1;
@@ -18,7 +18,7 @@ void setup(){
   background(255);
   gridW=screenW/sizeX;
   gridH=screenH/sizeY;
-  size(600,600);
+  size(400,400);
   tempreture=new float[36];
   sunlight=new float[36];
   precipitation=new float[36];
@@ -35,7 +35,7 @@ void setup(){
   day=0;
   loop();
   textSize(32);
-  table=loadTable("weather.csv","header");
+  table=loadTable("/script/weather.csv","header");
   int i=0;
   for (TableRow row : table.rows()) {
     tempreture[i] = row.getFloat("tempreture");
@@ -94,7 +94,7 @@ void draw(){
   if (cambium.n>2*3.14*sizeX/4){
       reset();
   }
-  delay(100);
+  delay(30);
 }
 void initD(){
   for (int i=sizeX/2-12;i<sizeX/2+12;i++){
