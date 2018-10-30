@@ -23,13 +23,13 @@ The skimage is short for scikit-image. It can be installed in conda envirenment 
 ```bash
 conda install scikit-image
 ```
-#### OpenCV solution
+#### OpenCV
 The following commands will give us a 2D numpy array.
 ```python
 import cv2
 im = cv2.imread(filename)
 ```
-As openCV is not well-maintained in conda envirenment of python 3.6, I personally recommend scikit-image solution. 
+As openCV is not well-maintained in conda envirenment of python 3.6, I personally recommend using scikit-image. OpenCV will become the option only when some rare situation that scikit-image doesn't work. 
 
 ## Interactive data visualization in Jupyternotebook
 Data visualization in Jupyter Notebook lacks support for interactive feature. Recently, a python library named plotly.py solves the problem.
