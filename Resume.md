@@ -17,7 +17,7 @@ Atlanta, GA, 30318
 ## Education:
 
 ### Georgia Institute of Technology, Atlanta, Georgia
-Sept. 2012 - Present Ph.D. in Bioinformatics
+Sept. 2012 - Dec. 2018 Ph.D. in Bioinformatics
 ### University of Science and Technology of China (USTC)
 Sept. 2008 - June 2012 B.S. in Biology
 
